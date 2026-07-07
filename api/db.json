@@ -24,16 +24,22 @@
       "nome": "mercados",
       "descricao": "Lugares públicos paradisíacos de frente para o mar!",
       "id": "5ZXAgQo"
+    },
+    {
+      "nome": "Praias",
+      "descricao": "Lugares públicos paradisíacos de frente para o mar!",
+      "id": "5ZXAqzQo"
     }
+
   ],
   "lugares": [
     {
       "id": "1",
-      "nome": "teste",
-      "categoria": "teste",
-      "localizacao": "teste",
-      "urlFoto": "teste",
-      "avaliacao": "1"
+      "nome": "Praia da Coroa Vermelha",
+      "categoria": "Praias",
+      "localizacao": "Porto Seguro - BA",
+      "urlFoto": "https://www.viagensecaminhos.com/wp-content/uploads/2021/09/praia-coro-vermelha-bahia.jpg",
+      "avaliacao": "5"
     },
     {
       "nome": "Leonardo da Silva Ramos",
@@ -42,6 +48,38 @@
       "urlFoto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
       "avaliacao": "5",
       "id": "0gQPdGY"
+    },
+    {
+      "nome": "Leonardo da Silva Ramos",
+      "categoria": "Shoppings",
+      "localizacao": "teste",
+      "urlFoto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
+      "avaliacao": "4",
+      "id": "TRknQ3S"
+    },
+    {
+      "nome": "Leonardo da Silva Ramos",
+      "categoria": "Shoppings",
+      "localizacao": "teste",
+      "urlFoto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
+      "avaliacao": "4",
+      "id": "8AiCsHW"
+    },
+    {
+      "nome": "Leonardo da Silva Ramos",
+      "categoria": "Shoppings",
+      "localizacao": "São Paulo, SP, BR",
+      "urlFoto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
+      "avaliacao": "2",
+      "id": "3L2I8h2"
+    },
+    {
+      "nome": "Irene Garcia Pancevo",
+      "categoria": "Restaurantes Parte 2",
+      "localizacao": "São Paulo, SP, BR",
+      "urlFoto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
+      "avaliacao": "5",
+      "id": "_hEQX6m"
     }
   ]
 }

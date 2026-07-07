@@ -33,7 +33,7 @@ export class CategoriaComponent {
       .subscribe({ 
         next: categoria => {
           console.log("Categoria salva com sucesso! ",categoria);
-          this.camposForm.reset;
+          this.camposForm.reset();
 
         },
         error: erro => console.log("Erro ao salvar: ", erro)

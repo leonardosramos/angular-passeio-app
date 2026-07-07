@@ -35,12 +35,19 @@ export class LugarComponent implements OnInit {
     })
   }
 
+  isCampoInvalido(nomeCampo: string): boolean {
+    const campo = this.camposForm.get(nomeCampo);
+    return campo?.invalid && campo?.touched || false;
+  }
+
   salvar(){
+    this.camposForm.markAllAsTouched();
+
     if(this.camposForm.valid){
       this.lugarService.salvar(this.camposForm.value).subscribe({
         next: lugar => {
-          console.log("O lugar foi salvo com sucesso! ", lugar)
-          this.camposForm.reset
+          console.log("O lugar foi salvo com sucesso! ", lugar);
+          this.camposForm.reset();
         },
         error: erro => {
           console.log("Deu erro: ", erro)
