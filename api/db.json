@@ -1,0 +1,47 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Compras e lazer na cidade"
+    },
+    {
+      "nome": "Restaurantes Parte 2",
+      "descricao": "Restaurantes Gourmet",
+      "id": "BTCYYOC"
+    },
+    {
+      "nome": "teste",
+      "descricao": "Lugares públicos paradisíacos de frente para o mar!",
+      "id": "FV_SFc6"
+    },
+    {
+      "nome": "exemplo",
+      "descricao": "Lugares públicos paradisíacos de frente para o mar!",
+      "id": "TZQ-HhT"
+    },
+    {
+      "nome": "mercados",
+      "descricao": "Lugares públicos paradisíacos de frente para o mar!",
+      "id": "5ZXAgQo"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "1",
+      "nome": "teste",
+      "categoria": "teste",
+      "localizacao": "teste",
+      "urlFoto": "teste",
+      "avaliacao": "1"
+    },
+    {
+      "nome": "Leonardo da Silva Ramos",
+      "categoria": "Shoppings",
+      "localizacao": "São Paulo, SP, BR",
+      "urlFoto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
+      "avaliacao": "5",
+      "id": "0gQPdGY"
+    }
+  ]
+}
