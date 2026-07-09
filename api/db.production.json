@@ -1,0 +1,258 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Praia",
+      "descricao": "Áreas litorâneas naturais com faixa de areia e mar, ideais para relaxamento, banho de sol e esportes aquáticos."
+    },
+    {
+      "id": 2,
+      "nome": "Shopping",
+      "descricao": "Centros comerciais fechados com grande variedade de lojas, praça de alimentação, cinemas e opções de entretenimento."
+    },
+    {
+      "id": 3,
+      "nome": "Centro Histórico",
+      "descricao": "Regiões centrais e urbanas que preservam a arquitetura antiga, monumentos e a memória cultural da cidade."
+    },
+    {
+      "id": 4,
+      "nome": "Parque ao Ar Livre",
+      "descricao": "Espaços verdes públicos arborizados, destinados ao lazer, caminhadas, piqueniques e contato com a natureza."
+    },
+    {
+      "id": 5,
+      "nome": "Gastronomia",
+      "descricao": "Locais dedicados à alimentação, incluindo restaurantes, lanchonetes, bistrôs e cafés com diversas opções culinárias."
+    },
+    {
+      "id": 6,
+      "nome": "Museu e Galeria",
+      "descricao": "Instituições culturais dedicadas à preservação, estudo e exposição de obras de arte, objetos históricos e científicos."
+    },
+    {
+      "id": 7,
+      "nome": "Mirante",
+      "descricao": "Pontos elevados, naturais ou construídos, que oferecem vistas panorâmicas privilegiadas da cidade ou paisagem."
+    },
+    {
+      "id": 8,
+      "nome": "Vida Noturna",
+      "descricao": "Estabelecimentos como bares, pubs e casas noturnas, com foco em bebidas, música, festas e socialização."
+    },
+    {
+      "id": 9,
+      "nome": "Mercado Público",
+      "descricao": "Mercadões tradicionais que comercializam produtos regionais, artesanato, especiarias e comidas típicas locais."
+    },
+    {
+      "id": 10,
+      "nome": "Ecoturismo e Trilhas",
+      "descricao": "Áreas naturais preservadas focadas na exploração ecológica, caminhadas em matas, cachoeiras e montanhismo."
+    },
+    {
+      "id": 11,
+      "nome": "Teatro e Espetáculos",
+      "descricao": "Casas de espetáculo destinadas a apresentações de peças teatrais, concertos musicais, dança e shows ao vivo."
+    },
+    {
+      "id": 12,
+      "nome": "Arena e Estádio",
+      "descricao": "Grandes estruturas esportivas projetadas para sediar partidas de futebol, outros esportes e eventos de grande porte."
+    }
+  ],
+  "lugares": [
+    {
+      "id": "1",
+      "nome": "Praia de Copacabana",
+      "categoria": "Praia",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/copacabana,beach",
+      "avaliacao": "4"
+    },
+    {
+      "id": "2",
+      "nome": "Praia de Jericoacoara",
+      "categoria": "Praia",
+      "localizacao": "Jijoca de Jericoacoara - CE",
+      "urlFoto": "https://loremflickr.com/800/600/jericoacoara",
+      "avaliacao": "5"
+    },
+    {
+      "id": "3",
+      "nome": "Morumbi Shopping",
+      "categoria": "Shopping",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/shopping,mall",
+      "avaliacao": "4"
+    },
+    {
+      "id": "4",
+      "nome": "BarraShopping",
+      "categoria": "Shopping",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/mall,shopping",
+      "avaliacao": "4"
+    },
+    {
+      "id": "5",
+      "nome": "Pelourinho",
+      "categoria": "Centro Histórico",
+      "localizacao": "Salvador - BA",
+      "urlFoto": "https://loremflickr.com/800/600/pelourinho",
+      "avaliacao": "4"
+    },
+    {
+      "id": "6",
+      "nome": "Centro Histórico de Ouro Preto",
+      "categoria": "Centro Histórico",
+      "localizacao": "Ouro Preto - MG",
+      "urlFoto": "https://loremflickr.com/800/600/ouropreto,church",
+      "avaliacao": "5"
+    },
+    {
+      "id": "7",
+      "nome": "Parque Ibirapuera",
+      "categoria": "Parque ao Ar Livre",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/ibirapuera",
+      "avaliacao": "4"
+    },
+    {
+      "id": "8",
+      "nome": "Parque Barigui",
+      "categoria": "Parque ao Ar Livre",
+      "localizacao": "Curitiba - PR",
+      "urlFoto": "https://loremflickr.com/800/600/curitiba,park",
+      "avaliacao": "4"
+    },
+    {
+      "id": "9",
+      "nome": "Bairro da Liberdade",
+      "categoria": "Gastronomia",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/liberdade,saopaulo",
+      "avaliacao": "4"
+    },
+    {
+      "id": "10",
+      "nome": "Rua das Pedras",
+      "categoria": "Gastronomia",
+      "localizacao": "Armação dos Búzios - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/buzios,street",
+      "avaliacao": "4"
+    },
+    {
+      "id": "11",
+      "nome": "Museu de Arte de São Paulo (MASP)",
+      "categoria": "Museu e Galeria",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/masp",
+      "avaliacao": "4"
+    },
+    {
+      "id": "12",
+      "nome": "Museu do Amanhã",
+      "categoria": "Museu e Galeria",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/museudoamanha",
+      "avaliacao": "4"
+    },
+    {
+      "id": "13",
+      "nome": "Pão de Açúcar",
+      "categoria": "Mirante",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/paodeacucar,rio",
+      "avaliacao": "5"
+    },
+    {
+      "id": "14",
+      "nome": "Mirante do Quadrado",
+      "categoria": "Mirante",
+      "localizacao": "Trancoso - BA",
+      "urlFoto": "https://loremflickr.com/800/600/trancoso,bahia",
+      "avaliacao": "4"
+    },
+    {
+      "id": "15",
+      "nome": "Arcos da Lapa",
+      "categoria": "Vida Noturna",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/lapa,rio",
+      "avaliacao": "4"
+    },
+    {
+      "id": "16",
+      "nome": "Rua Augusta",
+      "categoria": "Vida Noturna",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/ruaaugusta",
+      "avaliacao": "4"
+    },
+    {
+      "id": "17",
+      "nome": "Mercado Municipal de São Paulo",
+      "categoria": "Mercado Público",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/mercadomunicipal,saopaulo",
+      "avaliacao": "4"
+    },
+    {
+      "id": "18",
+      "nome": "Mercado Modelo",
+      "categoria": "Mercado Público",
+      "localizacao": "Salvador - BA",
+      "urlFoto": "https://loremflickr.com/800/600/mercadomodelo,salvador",
+      "avaliacao": "4"
+    },
+    {
+      "id": "19",
+      "nome": "Parque Nacional da Chapada dos Veadeiros",
+      "categoria": "Ecoturismo e Trilhas",
+      "localizacao": "Alto Paraíso de Goiás - GO",
+      "urlFoto": "https://loremflickr.com/800/600/chapadadosveadeiros",
+      "avaliacao": "5"
+    },
+    {
+      "id": "20",
+      "nome": "Cataratas do Iguaçu",
+      "categoria": "Ecoturismo e Trilhas",
+      "localizacao": "Foz do Iguaçu - PR",
+      "urlFoto": "https://loremflickr.com/800/600/iguazu",
+      "avaliacao": "5"
+    },
+    {
+      "id": "21",
+      "nome": "Theatro Municipal do Rio de Janeiro",
+      "categoria": "Teatro e Espetáculos",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/theatromunicipal,rio",
+      "avaliacao": "4"
+    },
+    {
+      "id": "22",
+      "nome": "Teatro Amazonas",
+      "categoria": "Teatro e Espetáculos",
+      "localizacao": "Manaus - AM",
+      "urlFoto": "https://loremflickr.com/800/600/teatroamazonas",
+      "avaliacao": "4"
+    },
+    {
+      "id": "23",
+      "nome": "Estádio do Maracanã",
+      "categoria": "Arena e Estádio",
+      "localizacao": "Rio de Janeiro - RJ",
+      "urlFoto": "https://loremflickr.com/800/600/maracana",
+      "avaliacao": "4"
+    },
+    {
+      "id": "24",
+      "nome": "Allianz Parque",
+      "categoria": "Arena e Estádio",
+      "localizacao": "São Paulo - SP",
+      "urlFoto": "https://loremflickr.com/800/600/allianzparque",
+      "avaliacao": "4"
+    }
+  ]
+}
